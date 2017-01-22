@@ -1,7 +1,7 @@
 
 module Shippo
   class Batch < ::Shippo::API::Resource
-    operations :create
+    operations :list, :create
     url '/batches'
   end
 end
